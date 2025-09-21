@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Samwel Morara — Data Scientist</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,#071026 0%,#081427 100%);-webkit-font-smoothing:antialiased}
+    .container{max-width:960px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:#021026;font-weight:700}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:14px}
+    .hero{background:var(--glass);padding:28px;border-radius:14px;margin-top:20px;display:grid;grid-template-columns:1fr;gap:18px}
+    .intro{display:flex;flex-direction:column;gap:8px}
+    .tagline{font-weight:600;color:#e6f6fb}
+    .roles{color:var(--muted);}
+    .ctas{display:flex;gap:12px;margin-top:8px}
+    .btn{background:var(--accent);color:#021026;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:10px 14px;border-radius:10px;text-decoration:none}
+    section{margin-top:20px}
+    .card{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .portfolio-item{border-radius:10px;padding:12px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);}
+    footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:720px){.grid{grid-template-columns:1fr}.avatar{width:52px;height:52px}
+      .container{margin:16px;padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">SM</div>
+        <div>
+          <h1>Samwel Morara</h1>
+          <p class="lead">Data Scientist • Cloud Enthusiast • Problem Solver</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pitch">Elevator Pitch</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero card" aria-labelledby="intro">
+        <div class="intro">
+          <div>
+            <div class="tagline">Turning messy data into clear decisions — I build models, dashboards, and cloud-native pipelines that help teams act faster.</div>
+            <div class="roles">Specialties: Predictive modeling • Data storytelling • AWS & Azure basics</div>
+          </div>
+          <div class="ctas">
+            <a class="btn" href="#contact">Hire / Collaborate</a>
+            <a class="secondary" href="#portfolio">View work</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="card">
+          <h2>About</h2>
+          <p>I am Samwel Morara, an aspiring data scientist focused on applying analytics and cloud tools to solve healthcare and financial inclusion challenges. I combine hands-on data analysis, cloud fundamentals, and clear communication to deliver practical solutions.</p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="grid">
+          <div class="portfolio-item card">
+            <h3>Project: Cross-border Payments Analysis</h3>
+            <p>Exploratory analysis and prototype for reducing transaction costs and latency. Tools: Python, pandas, AWS S3 (prototype).</p>
+          </div>
+          <div class="portfolio-item card">
+            <h3>Project: Healthcare Risk Prediction</h3>
+            <p>Built a prototype classifier to identify high-risk patients using feature engineering and model evaluation techniques.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pitch">
+        <div class="card">
+          <h2>Elevator Pitch</h2>
+          <p><strong>Hi, I’m Samwel Morara.</strong> I’m a data scientist with a background in developing predictive models for healthcare and financial inclusion, including a prototype classifier for high-risk patient identification and a cross-border payments analysis to optimize costs. My top skills are predictive modeling, data storytelling, and cloud pipeline development using AWS and Azure. I stand out because I blend technical expertise with clear communication, ensuring complex insights are actionable for any team. By delivering precise models and intuitive dashboards, I help clients and employers make faster, evidence-based decisions that save time and resources. I’m eager to collaborate on impactful analytics projects—let’s connect to explore how I can help. I’m excited to bring my data-driven approach to your team and turn your challenges into opportunities.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="card">
+          <h2>Contact</h2>
+          <p>Add your preferred email and links below so interested people can reach you.</p>
+          <ul>
+            <li>Email: <a href="mailto:ongutimorara776@gmail.com">ongutimorara776@gmail.com</a></li>
+            <li>LinkedIn: <a href="#">https://www.linkedin.com/in/samuel-morara-2242172a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></li>
+            
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>Made by Samwel Morara • </div>
+    </footer>
+  </div>
+</body>
+</html>
