@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi, i'm samwel
 
 <!--
 **onguti-star/onguti-star** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
